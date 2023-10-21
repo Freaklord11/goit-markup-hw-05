@@ -108,6 +108,26 @@ p{
     margin-top: none;
 }
 
+.nav-link:hover,
+.nav-link:focus{
+    color:var(--OCEAN);
+}
+
+.active{
+    color:var(--OCEAN);
+}
+.active::after{
+    content:" ";
+    display:block;
+    width:100%;
+    height:4px;
+    border-radius: 2px;
+    background-color: var(--OCEAN);
+    position: relative;
+    top: 24px;
+    
+}
+
 
 /*Order Service No Flex*/
 
