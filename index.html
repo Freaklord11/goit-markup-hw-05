@@ -49,22 +49,21 @@
 
     <main>
       <section class="studio">
-      <div class="header-solution">
-        <div class="header-color">
         <!--header content-->
-          <div class="header-div">
-            <h1 class="header-main">Effective Solutions <br/>for Your Bussiness</h1> 
-          </div>
-          <div class="order-button">
-           <button class="order" type="button">Order Service</button>
-           <div class="modal">
+            <h1 class="header-main">Effective Solutions 
+              <br/>for Your Bussiness
+            </h1> 
+          
+           <button class="order" type="button" data-modal-open>Order Service</button>
+           <div class="backdrop-overlay is-hidden" data-modal>
               <div class="modal-content">
-                <button type="button">&times;</button>
+                <button class="close-modal-btn" type="button" data-modal-close>
+                  X
+                </button>
               </div>
            </div>
-         </div>
-        </div>
-      </div>
+         
+      
       </section>
 
       <!--Description-->
